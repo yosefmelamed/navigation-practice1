@@ -1,0 +1,50 @@
+body{
+    background-color: darkblue;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul{
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    align-self: center;
+    font-size: 18px;
+}
+
+header nav ul li a{
+    font-family: montserrat;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px 0 0;
+}
+
+header nav ul li:last-child a{
+    margin-right: 0;
+}
+
+h1{
+font-size: 48px;
+color: #fff;
+text-align: center;
+}
+
+@media all and (min-width: 600px){
+header{
+display: flex;
+justify-content: space-between;  
+    
+}
+h1{ 
+    font-size: 52px;
+ }
+
+header nav ul{
+    font-size: 20px;
+} 
+
+}
